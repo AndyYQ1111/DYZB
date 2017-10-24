@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="P9W-g0-qU0">
             <objects>
-                <viewController id="WbR-H1-Mw3" sceneMemberID="viewController">
+                <viewController id="WbR-H1-Mw3" customClass="HomeViewController" customModule="DYZB" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2rH-uI-4Je">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -29,7 +29,7 @@
         <scene sceneID="OFl-X9-GHK">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="m3Q-Hd-8xL" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="首页" id="GuT-eV-TpM"/>
+                    <tabBarItem key="tabBarItem" title="首页" image="tab_family" selectedImage="tab_family_s" id="GuT-eV-TpM"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="B5V-qW-I0N">
@@ -46,4 +46,8 @@
             <point key="canvasLocation" x="-750.39999999999998" y="-726.83658170914543"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tab_family" width="21" height="21"/>
+        <image name="tab_family_s" width="22" height="22"/>
+    </resources>
 </document>

@@ -29,7 +29,7 @@
         <scene sceneID="FZE-jc-HdZ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6ct-bT-Drb" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="我的" id="fZA-mc-5xm"/>
+                    <tabBarItem key="tabBarItem" title="我的" image="tab_mine" selectedImage="tab_mine_s" id="fZA-mc-5xm"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="MH9-Bl-rDh">
@@ -46,4 +46,8 @@
             <point key="canvasLocation" x="-254" y="453"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tab_mine" width="20" height="22"/>
+        <image name="tab_mine_s" width="20" height="22"/>
+    </resources>
 </document>
